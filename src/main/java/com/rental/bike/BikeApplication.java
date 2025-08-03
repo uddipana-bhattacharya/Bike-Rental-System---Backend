@@ -13,7 +13,7 @@ public class BikeApplication {
 		SpringApplication.run(BikeApplication.class, args);
 	}
 
-	@GetMapping("/hello")
+	@GetMapping("/hi")
 	public String hello() {
 		return "Hello World! Bike Rental System is running successfully!";
 	}
